@@ -26,7 +26,7 @@ static int xvt_w_event_kbd_get_state (TERMWIN *tw, char *keys)
 				if (b != 0)
 				{
 					int		m = (i * 8) + j;
-					KeySym	k = XKeycodeToKeysym(tw->X->display, m, 0);
+					KeySym	k = XkbKeycodeToKeysym(tw->X->display, m, 0, 0);
 
 					switch (k)
 					{
