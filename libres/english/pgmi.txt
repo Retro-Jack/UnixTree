@@ -1,0 +1,17 @@
+# Program info strings
+
+m_pgm_package	"UnixTree"
+m_pgm_program	"xt"
+m_pgm_varprfx	"XT"
+m_pgm_slogan	"Don't leave $HOME without it!"
+m_pgm_vendor	"Nanosoft"
+m_pgm_copyrte	"Copyright (c) 2005 Nanosoft"
+m_pgm_emladdr	"info@unixtree.org"
+m_pgm_wwwaddr	"http://www.unixtree.org"
+m_pgm_ftpaddr	"ftp://unixtree.org"
+m_pgm_version	"3.0"
+m_pgm_release	"2"
+m_pgm_build	"1028"
+m_pgm_bldr_nam	"Retro Jack"
+m_pgm_bldr_ema	"jack@noname.foo"
+m_pgm_bldr_env	"Linux thebeast 6.19.10-1-cachyos #1 SMP PREEMPT_DYNAMIC Wed, 25 Mar 2026 23:30:07 +0000 x86_64 GNU/Linux"

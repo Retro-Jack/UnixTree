@@ -1,0 +1,40 @@
+UnixTree
+Copyright (c) 2005 Nanosoft
+--------------------------------------------------------------------------
+
+These programs are offered as Free Software under the terms of GPL,
+the GNU General Public License.  See the file COPYING for details.
+
+Parts of this code were derived from other open-source distributions:
+
+	GZIP compression library	Jean-loup Gailly & Mark Adler
+	MAGIC file processing		Ian F. Darwin
+	DIFF file processing		www.gnu.org
+	REGEXP processing		Henry Spencer
+
+We hope you enjoy this program.
+
+--------------------------------------------------------------------------
+
+The UnixTree source code is available via the following:
+
+	HTTP download at http://www.unixtree.org/ftp/
+
+	Anonymous FTP at ftp://unixtree.org
+
+	Email attachment (as a compressed or gzipped tar archive).
+	Send request to: info@unixtree.org
+
+	In case you don't have access to one of the online resources
+	listed above, you can request the source on floppy disk or cdrom.
+	You will be charged for only the cost of the medium, any
+	copying costs, and postage.
+	Send request to: info@unixtree.org
+
+These offers are valid for three years from the respective
+UnixTree version's release date (as documented in the CHANGES file).
+
+--------------------------------------------------------------------------
+Email comments to: info@unixtree.org
+UnixTree home: http://www.unixtree.org
+Don't leave $HOME without it!

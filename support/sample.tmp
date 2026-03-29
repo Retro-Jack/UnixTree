@@ -1,0 +1,15 @@
+# ------------------------------------------------------------------------
+# Sample UnixTree configuration file
+#
+# The xt program will look for the following configuration files:
+#	xt.rc
+#	xt.rc.$TERM
+# using the search path in XTPATH (if defined) or
+# the default path of ".:~/.xt:<xt-system-directory>".
+#
+# Note that outside of quotes case, white space, "-", and "_" are ignored.
+#
+# This file duplicates all the defaults and follows the layout
+# in the configuration screen.
+# ------------------------------------------------------------------------
+

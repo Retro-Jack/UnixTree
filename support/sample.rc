@@ -1,0 +1,271 @@
+# ------------------------------------------------------------------------
+# Sample UnixTree configuration file
+#
+# The xt program will look for the following configuration files:
+#	xt.rc
+#	xt.rc.$TERM
+# using the search path in XTPATH (if defined) or
+# the default path of ".:~/.xt:<xt-system-directory>".
+#
+# Note that outside of quotes case, white space, "-", and "_" are ignored.
+#
+# This file duplicates all the defaults and follows the layout
+# in the configuration screen.
+# ------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------
+# Display
+#
+screen type                   = auto
+screen blank interval         = 300
+use alternate char sets       = on
+
+# -----------------------------------------------------------------------
+# Window
+#
+run in window                 = on
+use mouse                     = on
+columns                       = 80
+rows                          = 25
+norm font                     = "7x14"
+bold font                     = "7x14bold"
+X toolkit options             = ""
+
+# -----------------------------------------------------------------------
+# Directory window
+#
+directory format              = name
+scroll directory display      = off
+
+# -----------------------------------------------------------------------
+# File window
+#
+file format                   = name-1col
+sort type                     = name
+sort order                    = ascending
+sort by path                  = off
+enter small window            = on
+autolog mode                  = disabled
+color file types              = off
+
+# -----------------------------------------------------------------------
+# Compression
+#
+compression type              = compress
+
+# -----------------------------------------------------------------------
+# Node Logging
+#
+logging method                = manual
+default node                  = "~"
+home to node                  = on
+log network files             = on
+scroll during logging         = on
+continue at mount points      = on
+resolve symbolic links        = off
+archive log interval          = 10
+ftp logging                   = off
+ftp debug                     = off
+ftp timeout                   = 10
+
+# -----------------------------------------------------------------------
+# Security
+#
+read only                     = off
+
+# -----------------------------------------------------------------------
+# Miscellaneous 1
+#
+beep on error                 = off
+keep date in copy             = on
+display clock                 = on
+keep file spec                = on
+prompt for quit               = off
+prompt for edit               = off
+prompt for delete             = on
+display headline              = on
+wide screen                   = off
+show tag blocks               = off
+enter application menu        = off
+shift for tag                 = on
+show app menu lines           = off
+
+# -----------------------------------------------------------------------
+# Miscellaneous 2
+#
+date display type             = modified
+edit program                  = "vi"
+view program                  = ""
+hexedit program               = ""
+max saved entries             = 10
+insert mode                   = off
+ignore filename case          = off
+ignore search case            = off
+show mount device             = off
+
+# -----------------------------------------------------------------------
+# Archive
+#
+cpio header format            = bin
+tar header format             = tar
+ignore illegal file types     = on
+
+# -----------------------------------------------------------------------
+# Viewer
+#
+default view mode             = auto
+tab width                     = 8
+mask display                  = off
+expand compressed files       = on
+
+# -----------------------------------------------------------------------
+# International
+#
+time format                   = 12
+date format                   = mdy
+time separator char           = ':'
+date separator char           = '/'
+numeric separator char        = ','
+
+# -----------------------------------------------------------------------
+# File compare
+#
+diff program                  = ""
+diff ignore case              = off
+diff ignore white space       = off
+diff show line numbers        = off
+diff show only diffs          = off
+diff page width               = 80
+diff target pattern           = "*~"
+
+# -----------------------------------------------------------------------
+# Printer
+#
+printer                       = ""
+print file                    = ""
+page length                   = 60
+page width                    = 80
+page margin                   = 0
+close printer at exit         = off
+
+# -----------------------------------------------------------------------
+# Regular window colors
+#
+regular lolite color          = lt-yellow/blue-bgnd
+regular hilite color          = lt-white/blue-bgnd
+regular cursor color          = blue/white-bgnd
+regular menu color            = lt-white/blue-bgnd
+
+# -----------------------------------------------------------------------
+# Showall window colors
+#
+showall lolite color          = lt-white/blue-bgnd
+showall hilite color          = lt-yellow/blue-bgnd
+showall cursor color          = blue/white-bgnd
+showall menu color            = lt-yellow/blue-bgnd
+
+# -----------------------------------------------------------------------
+# Autoview window colors
+#
+autoview lolite color         = lt-white/blue-bgnd
+autoview hilite color         = lt-green/blue-bgnd
+autoview cursor color         = blue/white-bgnd
+autoview menu color           = lt-green/blue-bgnd
+
+# -----------------------------------------------------------------------
+# Diff colors
+#
+diff same color               = lt-white/blue-bgnd
+diff changed color            = lt-white/red-bgnd
+diff left right color         = lt-white/black-bgnd
+diff number color             = black/blue-bgnd
+
+# -----------------------------------------------------------------------
+# Help system colors
+#
+help lolite color             = black/cyan-bgnd
+help hilite color             = lt-red/cyan-bgnd
+help bold color               = blue/cyan-bgnd
+help link color               = lt-blue/cyan-bgnd
+help glossary color           = black/green-bgnd
+help glossary link color      = yellow/cyan-bgnd
+
+# -----------------------------------------------------------------------
+# Menu colors
+#
+menu lolite color             = blue/cyan-bgnd
+menu hilite color             = black/cyan-bgnd
+menu cursor color             = black/white-bgnd
+menu border color             = red/cyan-bgnd
+
+# -----------------------------------------------------------------------
+# Miscellaneous colors
+#
+border color                  = lt-cyan/blue-bgnd
+clock color                   = green/blue-bgnd
+error color                   = white/red-bgnd
+mouse color                   = black/lt-magenta-bgnd
+mouse command color           = black/cyan-bgnd
+escape color                  = black/lt-white-bgnd
+exit color                    = black/lt-white-bgnd
+
+# -----------------------------------------------------------------------
+# Regular window attributes
+#
+regular lolite attribute      = normal
+regular hilite attribute      = normal
+regular cursor attribute      = reverse
+regular menu attribute        = bold
+
+# -----------------------------------------------------------------------
+# Showall window attributes
+#
+showall lolite attribute      = normal
+showall hilite attribute      = normal
+showall cursor attribute      = reverse
+showall menu attribute        = bold
+
+# -----------------------------------------------------------------------
+# Autoview window attributes
+#
+autoview lolite attribute     = normal
+autoview hilite attribute     = normal
+autoview cursor attribute     = reverse
+autoview menu attribute       = bold
+
+# -----------------------------------------------------------------------
+# Diff attributes
+#
+diff same attribute           = normal
+diff changed attribute        = bold
+diff left right attribute     = bold
+diff number attribute         = normal
+
+# -----------------------------------------------------------------------
+# Help system attributes
+#
+help lolite attribute         = normal
+help hilite attribute         = reverse
+help bold attribute           = bold
+help link attribute           = underline
+help glossary attribute       = normal
+help glossary link attribute  = bold
+
+# -----------------------------------------------------------------------
+# Menu attributes
+#
+menu lolite attribute         = normal
+menu hilite attribute         = bold
+menu cursor attribute         = reverse
+menu border attribute         = normal
+
+# -----------------------------------------------------------------------
+# Miscellaneous attributes
+#
+border attribute              = normal
+clock attribute               = normal
+error attribute               = reverse
+mouse attribute               = reverse
+mouse command attribute       = reverse
+escape attribute              = normal
+exit attribute                = normal

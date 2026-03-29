@@ -1,0 +1,853 @@
+/* ALL EDITS WILL BE LOST - This is a generated file. */
+
+#ifndef MSGS_H
+#define MSGS_H
+
+/* Text messages for all routines */
+
+#define m_pgm_hilite            	0
+#define m_pgm_separate          	1
+
+#define m_about_formerly        	2
+#define m_about_legalbs1        	3
+#define m_about_legalbs2        	4
+#define m_about_produced        	5
+#define m_about_porting         	6
+#define m_about_thanks          	7
+#define m_about_comments        	8
+#define m_about_homepage        	9
+
+#define m_archive_arch          	10
+
+#define m_arcutils_arc          	11
+#define m_arcutils_eat          	12
+#define m_arcutils_at           	13
+#define m_arcutils_dat          	14
+#define m_arcutils_tar          	15
+#define m_arcutils_bar          	16
+#define m_arcutils_cpio         	17
+#define m_arcutils_ztar         	18
+#define m_arcutils_zip          	19
+#define m_arcutils_entdev       	20
+#define m_arcutils_f2list       	21
+#define m_arcutils_entnm        	22
+#define m_arcutils_arnm         	23
+#define m_arcutils_seldev       	24
+#define m_arcutils_todev        	25
+#define m_arcutils_frodev       	26
+#define m_arcutils_bf           	27
+#define m_arcutils_cf           	28
+#define m_arcutils_tf           	29
+#define m_arcutils_gf           	30
+#define m_arcutils_zf           	31
+
+#define m_args_invlog           	32
+#define m_args_invscrn          	33
+#define m_args_badxvtopt        	34
+#define m_args_badxvtarg        	35
+
+#define m_attr_rwx3             	36
+#define m_attr_onoff            	37
+#define m_attr_onoff_tag        	38
+#define m_attr_copy             	39
+#define m_attr_att              	40
+#define m_attr_entatt           	41
+#define m_attr_entper           	42
+#define m_attr_entdat           	43
+#define m_attr_entgrp           	44
+#define m_attr_entown           	45
+#define m_attr_cha              	46
+#define m_attr_chad             	47
+#define m_attr_chap             	48
+#define m_attr_chao             	49
+#define m_attr_chag             	50
+#define m_attr_dat              	51
+#define m_attr_fortgd           	52
+#define m_attr_fordir           	53
+#define m_attr_forfil           	54
+#define m_attr_frofil           	55
+#define m_attr_grp              	56
+#define m_attr_own              	57
+#define m_attr_per              	58
+
+#define m_avail_bytfre          	59
+#define m_avail_mou             	60
+#define m_avail_anykey          	61
+#define m_avail_dev             	62
+#define m_avail_nomnts          	63
+
+#define m_avcmds_sea            	64
+
+#define m_avcmds2_mas           	65
+#define m_avcmds2_nmk           	66
+#define m_avcmds2_qqq           	67
+#define m_avcmds2_asc           	68
+#define m_avcmds2_dmp           	69
+#define m_avcmds2_hex           	70
+#define m_avcmds2_wrp           	71
+#define m_avcmds2_dsp           	72
+
+#define m_backup_to2            	73
+#define m_backup_or             	74
+#define m_backup_entnod         	75
+#define m_backup_entbas         	76
+#define m_backup_f2pt           	77
+#define m_backup_entar          	78
+#define m_backup_sto            	79
+#define m_backup_stoa           	80
+#define m_backup_stor           	81
+#define m_backup_askcmp         	82
+#define m_backup_backing        	83
+#define m_backup_comping        	84
+#define m_backup_bakall         	85
+#define m_backup_bakfil         	86
+#define m_backup_append         	87
+
+#define m_bang_yes              	88
+#define m_bang_no               	89
+#define m_bang_ok               	90
+#define m_bang_anykey           	91
+#define m_bang_rom              	92
+#define m_bang_tar              	93
+#define m_bang_copfil           	94
+#define m_bang_ret              	95
+#define m_bang_esc              	96
+
+#define m_bar_askvol            	97
+#define m_bar_of                	98
+
+#define m_batch_1234            	99
+#define m_batch_entfil          	100
+#define m_batch_filnam          	101
+#define m_batch_tem             	102
+
+#define m_cmds_dirr             	103
+#define m_cmds_dira             	104
+#define m_cmds_dirt             	105
+#define m_cmds_filr             	106
+#define m_cmds_fila             	107
+#define m_cmds_filt             	108
+#define m_cmds_avr              	109
+#define m_cmds_ava              	110
+#define m_cmds_avt              	111
+#define m_cmds_fvr              	112
+#define m_cmds_diff             	113
+#define m_cmds_arcr             	114
+#define m_cmds_arca             	115
+#define m_cmds_arct             	116
+#define m_cmds_hexc             	117
+#define m_cmds_cmds             	118
+
+#define m_cmds_attrs            	119
+#define m_cmds_avail            	120
+#define m_cmds_backup           	121
+#define m_cmds_cmp1             	122
+#define m_cmds_cmp2             	123
+#define m_cmds_compact          	124
+#define m_cmds_copy             	125
+#define m_cmds_delete           	126
+#define m_cmds_jfc              	127
+#define m_cmds_dirdisp          	128
+#define m_cmds_edit             	129
+#define m_cmds_exec             	130
+#define m_cmds_extract          	131
+#define m_cmds_filedisp         	132
+#define m_cmds_filespec         	133
+#define m_cmds_global           	134
+#define m_cmds_goto             	135
+#define m_cmds_graft            	136
+#define m_cmds_hexedit          	137
+#define m_cmds_invall           	138
+#define m_cmds_invert           	139
+#define m_cmds_link             	140
+#define m_cmds_make             	141
+#define m_cmds_move             	142
+#define m_cmds_node             	143
+#define m_cmds_open             	144
+#define m_cmds_print            	145
+#define m_cmds_prune            	146
+#define m_cmds_quit             	147
+#define m_cmds_release          	148
+#define m_cmds_rename           	149
+#define m_cmds_report           	150
+#define m_cmds_restore          	151
+#define m_cmds_script           	152
+#define m_cmds_search           	153
+#define m_cmds_srchbck          	154
+#define m_cmds_srchfwd          	155
+#define m_cmds_select           	156
+#define m_cmds_showall          	157
+#define m_cmds_showtag          	158
+#define m_cmds_sort             	159
+#define m_cmds_tag              	160
+#define m_cmds_tagall           	161
+#define m_cmds_untag            	162
+#define m_cmds_untagall         	163
+#define m_cmds_view             	164
+#define m_cmds_what             	165
+#define m_cmds_window           	166
+
+#define m_cmds_hexsave          	167
+#define m_cmds_hexundo          	168
+#define m_cmds_hextoggle        	169
+#define m_cmds_hexmask          	170
+#define m_cmds_hexunmask        	171
+
+#define m_cmds_ascii            	172
+#define m_cmds_dump             	173
+#define m_cmds_hex              	174
+#define m_cmds_keep             	175
+#define m_cmds_mask             	176
+#define m_cmds_wrap             	177
+
+#define m_cmds_diffnum          	178
+#define m_cmds_diffcom          	179
+#define m_cmds_diffnext         	180
+#define m_cmds_diffprev         	181
+
+#define m_cmp_cmpdir            	182
+#define m_cmp_cmpfil            	183
+#define m_cmp_with              	184
+#define m_cmp_wfil              	185
+#define m_cmp_wtf               	186
+#define m_cmp_kftta             	187
+#define m_cmp_or                	188
+#define m_cmp_same              	189
+#define m_cmp_diff              	190
+#define m_cmp_tfta              	191
+#define m_cmp_yes               	192
+#define m_cmp_no                	193
+#define m_cmp_bl2               	194
+#define m_cmp_id                	195
+#define m_cmp_un                	196
+#define m_cmp_new               	197
+#define m_cmp_old               	198
+#define m_cmp_bang              	199
+#define m_cmp_bang2             	200
+
+#define m_compact_ctn           	201
+#define m_compact_cdn           	202
+
+#define m_config_mm1            	203
+#define m_config_mm2            	204
+#define m_config_mm3            	205
+#define m_config_mm4            	206
+#define m_config_mm5            	207
+#define m_config_mm6            	208
+#define m_config_mm7            	209
+#define m_config_mm8            	210
+#define m_config_esc1           	211
+#define m_config_esc2           	212
+#define m_config_ret1           	213
+#define m_config_ret2           	214
+#define m_config_sel1           	215
+#define m_config_sel2           	216
+#define m_config_f2             	217
+#define m_config_f3             	218
+#define m_config_title          	219
+#define m_config_main           	220
+#define m_config_next           	221
+#define m_config_prev           	222
+#define m_config_main_p         	223
+#define m_config_next_p         	224
+#define m_config_prev_p         	225
+#define m_config_page           	226
+#define m_config_fnp            	227
+#define m_config_fnb            	228
+#define m_config_nump           	229
+#define m_config_numb           	230
+#define m_config_chrp           	231
+#define m_config_chrb           	232
+#define m_config_strp           	233
+#define m_config_strb           	234
+#define m_config_valu           	235
+#define m_config_vald           	236
+#define m_config_clrfu          	237
+#define m_config_clrfd          	238
+#define m_config_clrbu          	239
+#define m_config_clrbd          	240
+
+#define m_copy_cop1             	241
+#define m_copy_to1              	242
+#define m_copy_to2              	243
+#define m_copy_to3              	244
+#define m_copy_as1              	245
+#define m_copy_as2              	246
+#define m_copy_repexi           	247
+#define m_copy_entdes           	248
+#define m_copy_entalt           	249
+#define m_copy_entfil           	250
+#define m_copy_node             	251
+#define m_copy_f2dir            	252
+#define m_copy_altbase          	253
+#define m_copy_basenode         	254
+#define m_copy_cop2             	255
+#define m_copy_copall           	256
+#define m_copy_copfil           	257
+#define m_copy_dupcop           	258
+#define m_copy_lin1             	259
+#define m_copy_linall           	260
+#define m_copy_linfil           	261
+#define m_copy_lindir           	262
+#define m_copy_cop3             	263
+#define m_copy_in               	264
+#define m_copy_lin2             	265
+#define m_copy_harsof           	266
+#define m_copy_or               	267
+#define m_copy_link             	268
+#define m_copy_hard             	269
+#define m_copy_soft             	270
+#define m_copy_abs              	271
+#define m_copy_rel              	272
+
+#define m_cpio_askvol           	273
+#define m_cpio_of               	274
+
+#define m_credits_ver           	275
+#define m_credits_bld           	276
+#define m_credits_bldr_nam      	277
+#define m_credits_bldr_ema      	278
+#define m_credits_bldr_env      	279
+#define m_credits_bldr_dat      	280
+#define m_credits_anykey        	281
+
+#define m_date_nodate           	282
+#define m_date_months_00        	283
+#define m_date_months_01        	284
+#define m_date_months_02        	285
+#define m_date_months_03        	286
+#define m_date_months_04        	287
+#define m_date_months_05        	288
+#define m_date_months_06        	289
+#define m_date_months_07        	290
+#define m_date_months_08        	291
+#define m_date_months_09        	292
+#define m_date_months_10        	293
+#define m_date_months_11        	294
+#define m_date_days_00          	295
+#define m_date_days_01          	296
+#define m_date_days_02          	297
+#define m_date_days_03          	298
+#define m_date_days_04          	299
+#define m_date_days_05          	300
+#define m_date_days_06          	301
+#define m_date_yes              	302
+#define m_date_tod              	303
+#define m_date_tom              	304
+#define m_date_now              	305
+#define m_date_last             	306
+#define m_date_next             	307
+#define m_date_am               	308
+#define m_date_pm               	309
+
+#define m_delete_condel         	310
+#define m_delete_deltfl         	311
+#define m_delete_delall         	312
+#define m_delete_delfil1        	313
+#define m_delete_delfil2        	314
+
+#define m_dest_select           	315
+#define m_dest_chodir           	316
+#define m_dest_arrscr           	317
+
+#define m_diff_compare          	318
+#define m_diff_to               	319
+#define m_diff_in               	320
+#define m_diff_enter            	321
+#define m_diff_entdes           	322
+#define m_diff_samefile         	323
+#define m_diff_same             	324
+#define m_diff_binsame          	325
+#define m_diff_bindiff          	326
+#define m_diff_prtask1          	327
+#define m_diff_prtask2          	328
+#define m_diff_prtaskor         	329
+#define m_diff_prtaskf          	330
+#define m_diff_prtaskp          	331
+#define m_diff_prtasks          	332
+#define m_diff_prtaskd          	333
+#define m_diff_filename         	334
+#define m_diff_directory        	335
+#define m_diff_prompt           	336
+#define m_diff_promptp          	337
+#define m_diff_promptf          	338
+#define m_diff_prompts          	339
+#define m_diff_promptd          	340
+#define m_diff_promptfil        	341
+
+#define m_dircmd2_attr          	342
+#define m_dircmd2_com           	343
+#define m_dircmd2_del           	344
+#define m_dircmd2_gra           	345
+#define m_dircmd2_link          	346
+#define m_dircmd2_mkd           	347
+#define m_dircmd2_pru           	348
+#define m_dircmd2_ren           	349
+
+#define m_dirrtns_as1           	350
+#define m_dirrtns_as2           	351
+#define m_dirrtns_deldir        	352
+#define m_dirrtns_entdir        	353
+#define m_dirrtns_delsub        	354
+#define m_dirrtns_del           	355
+#define m_dirrtns_maksub        	356
+#define m_dirrtns_makdir        	357
+#define m_dirrtns_rendir        	358
+#define m_dirrtns_ren           	359
+
+#define m_dispfile_nofil        	360
+#define m_dispfile_nomat        	361
+#define m_dispfile_notlog       	362
+#define m_dispfile_cantlog      	363
+#define m_dispfile_noperms      	364
+
+#define m_edit_entfil           	365
+#define m_edit_edit             	366
+#define m_edit_view             	367
+
+#define m_exttar_extfil         	368
+#define m_exttar_extall         	369
+#define m_exttar_from           	370
+#define m_exttar_entnod         	371
+#define m_exttar_entrel         	372
+#define m_exttar_f2pt           	373
+#define m_exttar_extful         	374
+#define m_exttar_extfil2        	375
+#define m_exttar_uncfile        	376
+#define m_exttar_to             	377
+#define m_exttar_repexi         	378
+
+#define m_filecmd2_att          	379
+#define m_filecmd2_cop          	380
+#define m_filecmd2_del          	381
+#define m_filecmd2_lin          	382
+#define m_filecmd2_mov          	383
+#define m_filecmd2_ren          	384
+
+#define m_filespec_entfil       	385
+#define m_filespec_filspc       	386
+
+#define m_getft_dne             	387
+#define m_getft_ind             	388
+#define m_getft_readir          	389
+#define m_getft_sync            	390
+#define m_getft_fil             	391
+
+#define m_getnode_res           	392
+#define m_getnode_bang          	393
+#define m_getnode_load          	394
+
+#define m_global_sgl            	395
+
+#define m_goto_entdir           	396
+#define m_goto_gotdir           	397
+#define m_goto_entfil           	398
+#define m_goto_gotfil           	399
+
+#define m_graft_tosub           	400
+#define m_graft_granod          	401
+#define m_graft_grasub          	402
+
+#define m_help_title            	403
+#define m_help_linkfwd          	404
+#define m_help_linkbck          	405
+#define m_help_index            	406
+#define m_help_next             	407
+#define m_help_prev             	408
+#define m_help_quit             	409
+
+#define m_hex_save              	410
+
+#define m_logbar_frodev         	411
+#define m_logbar_lbf            	412
+
+#define m_logcpio_frodev        	413
+#define m_logcpio_lcf           	414
+
+#define m_logtar_frodev         	415
+#define m_logtar_ltf            	416
+
+#define m_logztar_frodev        	417
+#define m_logztar_ltf           	418
+
+#define m_logzip_frodev         	419
+#define m_logzip_ltf            	420
+
+#define m_main_dne              	421
+#define m_main_ind              	422
+#define m_main_illopt           	423
+#define m_main_ora              	424
+#define m_main_tma              	425
+#define m_main_cnit             	426
+#define m_main_minrows          	427
+#define m_main_mincols          	428
+#define m_main_invdb            	429
+
+#define m_menu_title            	430
+#define m_menu_run              	431
+#define m_menu_quit             	432
+#define m_menu_wk               	433
+#define m_menu_sun              	434
+#define m_menu_mon              	435
+#define m_menu_tue              	436
+#define m_menu_wed              	437
+#define m_menu_thu              	438
+#define m_menu_fri              	439
+#define m_menu_sat              	440
+#define m_menu_esd              	441
+#define m_menu_esf              	442
+#define m_menu_est              	443
+
+#define m_move_mov              	444
+#define m_move_as1              	445
+#define m_move_as2              	446
+#define m_move_as3              	447
+#define m_move_to               	448
+#define m_move_repexi           	449
+#define m_move_entdesn          	450
+#define m_move_f2dir            	451
+#define m_move_entdesp          	452
+#define m_move_entfil           	453
+#define m_move_movall           	454
+#define m_move_movfil           	455
+
+#define m_newnode_flog          	456
+#define m_newnode_host          	457
+#define m_newnode_bhost         	458
+#define m_newnode_user          	459
+#define m_newnode_buser         	460
+#define m_newnode_passwd        	461
+#define m_newnode_bpasswd       	462
+#define m_newnode_rdir          	463
+#define m_newnode_brdir         	464
+#define m_newnode_entrn         	465
+#define m_newnode_rls           	466
+#define m_newnode_node          	467
+#define m_newnode_rel           	468
+#define m_newnode_entlog        	469
+#define m_newnode_relog         	470
+#define m_newnode_exist         	471
+#define m_newnode_loga          	472
+#define m_newnode_logan         	473
+#define m_newnode_new           	474
+#define m_newnode_arch          	475
+#define m_newnode_ftptype       	476
+#define m_newnode_load          	477
+#define m_newnode_load1         	478
+#define m_newnode_save          	479
+#define m_newnode_snode         	480
+#define m_newnode_rlsnod        	481
+#define m_newnode_relnod        	482
+#define m_newnode_tar           	483
+#define m_newnode_bar           	484
+#define m_newnode_cpio          	485
+#define m_newnode_ztar          	486
+#define m_newnode_zip           	487
+#define m_newnode_ftp           	488
+#define m_newnode_banghost      	489
+#define m_newnode_banguser      	490
+#define m_newnode_bangpass      	491
+#define m_newnode_enthost       	492
+#define m_newnode_entuser       	493
+#define m_newnode_entpass       	494
+
+#define m_pinput_anykey         	495
+
+#define m_print_pag             	496
+#define m_print_alrpri          	497
+#define m_print_byt             	498
+#define m_print_tagfil          	499
+#define m_print_entfil          	500
+#define m_print_entpri          	501
+#define m_print_lin             	502
+#define m_print_ntf             	503
+#define m_print_nod             	504
+#define m_print_pat             	505
+#define m_print_pri             	506
+#define m_print_atf             	507
+#define m_print_ctf             	508
+#define m_print_dt              	509
+#define m_print_prtpat          	510
+#define m_print_fil1            	511
+#define m_print_fil2            	512
+#define m_print_pc              	513
+#define m_print_cat             	514
+#define m_print_names           	515
+#define m_print_tree            	516
+
+#define m_prompt_bl             	517
+#define m_prompt_bl2            	518
+#define m_prompt_f2             	519
+#define m_prompt_f3             	520
+#define m_prompt_f32            	521
+#define m_prompt_f4             	522
+#define m_prompt_f42            	523
+#define m_prompt_f5             	524
+#define m_prompt_f61            	525
+#define m_prompt_f62            	526
+#define m_prompt_f7             	527
+#define m_prompt_f8s            	528
+#define m_prompt_f8u            	529
+#define m_prompt_pfile          	530
+#define m_prompt_nfile          	531
+#define m_prompt_psrch          	532
+#define m_prompt_nsrch          	533
+#define m_prompt_f10            	534
+#define m_prompt_f10b           	535
+#define m_prompt_qi             	536
+#define m_prompt_cmds           	537
+#define m_prompt_fil            	538
+#define m_prompt_more           	539
+#define m_prompt_tree           	540
+#define m_prompt_arrscr         	541
+#define m_prompt_arrpos         	542
+#define m_prompt_comp           	543
+#define m_prompt_diffeditb      	544
+#define m_prompt_diffeditl      	545
+#define m_prompt_diffeditr      	546
+#define m_prompt_diffviewl      	547
+#define m_prompt_diffviewr      	548
+
+#define m_prune_ptn             	549
+#define m_prune_pd              	550
+#define m_prune_air             	551
+#define m_prune_pn              	552
+
+#define m_putnode_bang          	553
+#define m_putnode_save          	554
+
+#define m_quit_ok               	555
+#define m_quit_quit             	556
+#define m_quit_int              	557
+#define m_quit_savckp           	558
+
+#define m_regexp_00             	559
+#define m_regexp_01             	560
+#define m_regexp_02             	561
+#define m_regexp_03             	562
+#define m_regexp_04             	563
+#define m_regexp_05             	564
+#define m_regexp_06             	565
+#define m_regexp_07             	566
+#define m_regexp_08             	567
+#define m_regexp_09             	568
+#define m_regexp_10             	569
+#define m_regexp_11             	570
+#define m_regexp_12             	571
+#define m_regexp_13             	572
+#define m_regexp_14             	573
+#define m_regexp_15             	574
+#define m_regexp_16             	575
+#define m_regexp_17             	576
+
+#define m_rename_as1            	577
+#define m_rename_as2            	578
+#define m_rename_efsfn          	579
+#define m_rename_ratf           	580
+#define m_rename_ren1           	581
+#define m_rename_ren2           	582
+
+#define m_restore_to1           	583
+#define m_restore_to2           	584
+#define m_restore_entfil        	585
+#define m_restore_resall        	586
+#define m_restore_frodev        	587
+#define m_restore_entrel        	588
+#define m_restore_f2pt          	589
+#define m_restore_entnod        	590
+#define m_restore_cfm           	591
+#define m_restore_repexi        	592
+#define m_restore_resfil        	593
+#define m_restore_res2          	594
+#define m_restore_linking       	595
+#define m_restore_resing        	596
+#define m_restore_extful        	597
+#define m_restore_bf            	598
+#define m_restore_cf            	599
+#define m_restore_tf            	600
+#define m_restore_gf            	601
+#define m_restore_zf            	602
+
+#define m_search_entstr         	603
+#define m_search_seafor         	604
+#define m_search_satf           	605
+#define m_search_in             	606
+#define m_search_igncase        	607
+#define m_search_obscase        	608
+
+#define m_sort_on               	609
+#define m_sort_off              	610
+#define m_sort_asc              	611
+#define m_sort_des              	612
+#define m_sort_entopt           	613
+#define m_sort_sor              	614
+#define m_sort_name             	615
+#define m_sort_ext              	616
+#define m_sort_date             	617
+#define m_sort_inode            	618
+#define m_sort_link             	619
+#define m_sort_size             	620
+#define m_sort_unsort           	621
+#define m_sort_ord              	622
+#define m_sort_path             	623
+#define m_sort_sfdb             	624
+
+#define m_stats_arch            	625
+#define m_stats_ftp             	626
+#define m_stats_path            	627
+#define m_stats_disk            	628
+#define m_stats_host            	629
+#define m_stats_addr            	630
+#define m_stats_fre1            	631
+#define m_stats_fre2            	632
+#define m_stats_fil1            	633
+#define m_stats_fil2            	634
+#define m_stats_fil3            	635
+#define m_stats_blk             	636
+#define m_stats_byt             	637
+#define m_stats_glb             	638
+#define m_stats_nod             	639
+#define m_stats_sho             	640
+#define m_stats_tot             	641
+#define m_stats_mat             	642
+#define m_stats_tag             	643
+#define m_stats_dirst           	644
+#define m_stats_glbst           	645
+#define m_stats_nodst           	646
+#define m_stats_shost           	647
+
+#define m_sym_changefr          	648
+#define m_sym_changeto          	649
+#define m_sym_changenm          	650
+
+#define m_tagfile_amfb          	651
+#define m_tagfile_amfisn        	652
+#define m_tagfile_crit          	653
+#define m_tagfile_coplin        	654
+#define m_tagfile_copdat        	655
+#define m_tagfile_copgrp        	656
+#define m_tagfile_copino        	657
+#define m_tagfile_copown        	658
+#define m_tagfile_copper        	659
+#define m_tagfile_copsiz        	660
+#define m_tagfile_coptyp        	661
+#define m_tagfile_ctypd         	662
+#define m_tagfile_ctypp         	663
+#define m_tagfile_ctyps         	664
+#define m_tagfile_ctypo         	665
+#define m_tagfile_ctypg         	666
+#define m_tagfile_ctypi         	667
+#define m_tagfile_ctypl         	668
+#define m_tagfile_ctypn         	669
+#define m_tagfile_ctypt         	670
+#define m_tagfile_enter         	671
+#define m_tagfile_entdat        	672
+#define m_tagfile_entgrp        	673
+#define m_tagfile_entino        	674
+#define m_tagfile_entlin        	675
+#define m_tagfile_entnod        	676
+#define m_tagfile_entord        	677
+#define m_tagfile_entown        	678
+#define m_tagfile_entper        	679
+#define m_tagfile_entsiz        	680
+#define m_tagfile_enttype       	681
+#define m_tagfile_enttypr       	682
+#define m_tagfile_enttypb       	683
+#define m_tagfile_enttypc       	684
+#define m_tagfile_enttypd       	685
+#define m_tagfile_enttypf       	686
+#define m_tagfile_enttypn       	687
+#define m_tagfile_enttypl       	688
+#define m_tagfile_enttyps       	689
+#define m_tagfile_enttypu       	690
+#define m_tagfile_f2            	691
+#define m_tagfile_inv1          	692
+#define m_tagfile_inv2          	693
+#define m_tagfile_tag1          	694
+#define m_tagfile_tag2          	695
+#define m_tagfile_unt1          	696
+#define m_tagfile_unt2          	697
+#define m_tagfile_rwx           	698
+#define m_tagfile_today         	699
+#define m_tagfile_chotag        	700
+
+#define m_term_label            	701
+#define m_tar_askvol            	702
+#define m_tar_of                	703
+
+#define m_treespec_ts           	704
+#define m_treespec_prompt       	705
+
+#define m_usage_on              	706
+#define m_usage_off             	707
+#define m_usage_fmu             	708
+#define m_usage_us1             	709
+#define m_usage_us2             	710
+#define m_usage_us2x            	711
+#define m_usage_opt             	712
+#define m_usage_nodmsg_1        	713
+#define m_usage_nodmsg_2        	714
+#define m_usage_xvt             	715
+
+#define m_usage_a               	716
+#define m_usage_c               	717
+#define m_usage_k               	718
+#define m_usage_m               	719
+#define m_usage_n               	720
+#define m_usage_r               	721
+#define m_usage_v               	722
+#define m_usage_w               	723
+#define m_usage_x               	724
+#define m_usage_e               	725
+#define m_usage_l               	726
+#define m_usage_t               	727
+
+#define m_usage_dd              	728
+#define m_usage_kk              	729
+#define m_usage_mm              	730
+#define m_usage_ff              	731
+#define m_usage_hh              	732
+#define m_usage_ii              	733
+#define m_usage_oo              	734
+#define m_usage_ss              	735
+
+#define m_usage_tt              	736
+#define m_usage_tt_val          	737
+#define m_usage_tt_def          	738
+#define m_usage_tt_typ          	739
+
+#define m_usage_xx              	740
+
+#define m_usage_zz              	741
+#define m_usage_zzcc            	742
+#define m_usage_zzdd            	743
+#define m_usage_zzff            	744
+#define m_usage_zzmm            	745
+#define m_usage_zzkk            	746
+#define m_usage_zzk             	747
+#define m_usage_zzss            	748
+#define m_usage_zzs             	749
+#define m_usage_zzvv            	750
+
+#define m_userid_noown          	751
+#define m_userid_nogrp          	752
+
+#define m_xgetstr_overlay       	753
+#define m_xgetstr_insert        	754
+#define m_xgetstr_keep          	755
+#define m_xgetstr_nokeep        	756
+
+#define m_xsystem_cmd           	757
+#define m_xsystem_entarg        	758
+#define m_xsystem_entcmd        	759
+#define m_xsystem_entctx        	760
+#define m_xsystem_xcwatf        	761
+#define m_xsystem_xcmd          	762
+#define m_xsystem_args          	763
+
+#define m_ztar_askvol           	764
+#define m_ztar_of               	765
+
+#define NUM_MSGS	766
+
+#endif /* MSGS_H */

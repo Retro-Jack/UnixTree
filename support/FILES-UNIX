@@ -1,0 +1,42 @@
+The following files are in this distribution for UnixTree:
+
+Executables:
+
+	xt			The UnixTree program
+	xtx			The UnixTree program (using a separate window)
+	restool			A program for manipulating resource files.
+
+Data files:
+
+	xt.fc			The default file color definition file
+	xt.mnu			The default system application menu file
+	xt.dev			The default list of archive devices
+	magic			The magic file for querying file contents
+
+	english.res		The English resource file
+	english.hlp		The English help file
+
+	german.res		The German resource file
+	german.hlp		The German help file
+
+	trm/*.trm		term files for various terminal types
+
+Doc files:
+
+	man/man1/xt.1		The man pages for UnixTree in "man" format
+	catman/man1/xt.1	The man pages for UnixTree in "cat" format
+
+Text files:
+
+	INSTALL			Install instructions
+	LICENSE			License stuff
+	COPYING			The GNU General Public License
+	CHANGES			The changes log
+	FILES			This file
+	TERMFILES		A text file documenting term-files
+	sample.rc		A sample xt.rc file containing all defaults
+
+--------------------------------------------------------------------------
+Email comments to: info@unixtree.org
+UnixTree home: http://www.unixtree.org
+Don't leave $HOME without it!

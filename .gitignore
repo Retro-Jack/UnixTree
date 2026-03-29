@@ -1,0 +1,43 @@
+# Build artifacts
+*.o
+*.a
+*.i
+
+# Built libraries
+lib/
+
+# Distribution/delivery directories
+dist/
+util/
+ecur/
+
+# Built executables
+bin/chknewer
+bin/ic
+product/xt
+product/xtx
+termutils/termtest
+termutils/termcap
+termutils/terminfo
+
+# Build state
+build.opt
+
+# Generated curses headers (built from ecurses.h template)
+libwin/curses.h
+libwin/term.h
+libwin/termcap.h
+libecurses/curses.h
+libecurses/term.h
+libecurses/termcap.h
+libecurses/sysmem.h
+libecurses/sysopt.h
+libecurses/syssig.h
+libecurses/systhread.h
+
+# Generated resource files
+libres/english/english.res
+libres/german/german.res
+
+# RPM build tree
+rpmbuild/
