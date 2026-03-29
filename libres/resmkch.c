@@ -10,7 +10,7 @@
 /*------------------------------------------------------------------------
  * get list of res entries
  */
-static res_get_list (RES_LIST *rl, char *msgbuf)
+static int res_get_list (RES_LIST *rl, char *msgbuf)
 {
 	FILE *	fp;
 	int		rc;
