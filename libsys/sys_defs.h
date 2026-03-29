@@ -69,7 +69,8 @@
  * macro to get offset of a field in a struct
  */
 #ifndef X_OFFSET_OF
-#define	X_OFFSET_OF(t,f)		( (int)&(((t *)0)->f) )
+#  include <stddef.h>
+#  define X_OFFSET_OF(t,f)		( (int)offsetof(t,f) )
 #endif
 
 /*------------------------------------------------------------------------
