@@ -1,6 +1,6 @@
 # UnixTree
 
-A curses-based file tree navigator and manager for Unix/Linux, modelled on the classic ZTree/ZTGOLD file managers from DOS. Two-panel interface — directory tree on the left, file list on the right — controlled entirely from the keyboard.
+A curses-based file tree navigator and manager for Unix/Linux, modelled on the classic ZTree/ZTGOLD file managers from DOS. Three-panel interface — directory tree (upper left), disk and node statistics (upper right), and file list (lower) — controlled entirely from the keyboard.
 
 This is a fork of [dokakod/unixtree](https://github.com/dokakod/unixtree), which preserves the original source by **Rob Juergens**.
 
