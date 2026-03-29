@@ -322,7 +322,7 @@ static int tcap_load_raw (char *buf, const char *term, const char *path)
 	char			tbuf[BUFSIZ];
 	char			tc[128];
 	char *			t;
-	char *			p;
+	const char *	p;
 	const char **	ts;
 	int				rc;
 
